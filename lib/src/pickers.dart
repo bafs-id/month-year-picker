@@ -482,7 +482,7 @@ class _Button extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(100.0),
         ),
-        textStyle: TextStyle(color: buttonText),
+        textStyle: TextStyle(color: buttonText, fontSize: 18),
       ),
       child: Text(label),
     );
